@@ -58,7 +58,7 @@ class QRReader extends React.Component {
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify(data)
+      body: data
     });
 
     this.props.history.push("/admin/verified");
